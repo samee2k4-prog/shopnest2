@@ -1,0 +1,111 @@
+
+[
+  {
+    "id": 1,
+    "name": "Mini Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 899,
+    "originalPrice": 1199,
+    "rating": 4.6,
+    "imageUrl": "images/products1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "LED Photo Night Lamp",
+    "category": "Electronics",
+    "price": 699,
+    "originalPrice": 899,
+    "rating": 4.8,
+    "imageUrl": "images/products2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Wireless Earbuds Case",
+    "category": "Electronics",
+    "price": 499,
+    "originalPrice": 649,
+    "rating": 4.3,
+    "imageUrl": "images/products3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Personalised Tote Bag",
+    "category": "Clothing",
+    "price": 599,
+    "originalPrice": 799,
+    "rating": 4.5,
+    "imageUrl": "images/products4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Everyday Cotton T-Shirt",
+    "category": "Clothing",
+    "price": 499,
+    "originalPrice": 699,
+    "rating": 4.2,
+    "imageUrl": "images/products5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Soft Casual Hoodie",
+    "category": "Clothing",
+    "price": 999,
+    "originalPrice": 1299,
+    "rating": 4.7,
+    "imageUrl": "images/products6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Classic Everyday Sneakers",
+    "category": "Footwear",
+    "price": 1499,
+    "originalPrice": 1899,
+    "rating": 4.6,
+    "imageUrl": "images/products7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Comfort Slides",
+    "category": "Footwear",
+    "price": 499,
+    "originalPrice": 699,
+    "rating": 4.1,
+    "imageUrl": "images/products8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Canvas Casual Shoes",
+    "category": "Footwear",
+    "price": 1199,
+    "originalPrice": 1499,
+    "rating": 4.4,
+    "imageUrl": "images/products9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Creative Ideas Notebook",
+    "category": "Books",
+    "price": 199,
+    "originalPrice": 299,
+    "rating": 4.5,
+    "imageUrl": "images/products10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Daily Journal",
+    "category": "Books",
+    "price": 249,
+    "originalPrice": 349,
+    "rating": 4.3,
+    "imageUrl": "images/products11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Memory Scrapbook",
+    "category": "Books",
+    "price": 399,
+    "originalPrice": 499,
+    "rating": 4.8,
+    "imageUrl": "images/products12.jpg"
+  }
+]

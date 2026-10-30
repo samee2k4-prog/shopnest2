@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ShopNest - find thoughtful gifts, accessories, and everyday favourites.">
+    <title>ShopNest | gifting treasure</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header" id="home">
+        <div class="header-inner">
+            <a class="brand" href="#home">ShopNest<span></span></a>
+            <p>gifting treasure</p>
+            <a class="header-cart" href="#cart" aria-label="Go to shopping cart">
+                 Cart <span id="cart-count" class="cart-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="small-heading">A LITTLE SOMETHING SPECIAL</p>
+                <h1>Find gifts that make<br><span>moments memorable.</span></h1>
+                <p>Explore thoughtful finds, useful favourites and lovely surprises at ShopNest.</p>
+                <a class="primary-button" href="#products">Explore Products</a>
+            </div>
+            <div class="hero-art" aria-hidden="true"><span></span></div>
+        </section>
+
+        <section class="shop-section" id="products">
+            <div class="section-heading">
+                <p class="small-heading">OUR COLLECTION</p>
+                <h2>Shop Our Products</h2>
+                <p>Take a look around and find something you love.</p>
+            </div>
+
+            <div class="toolbar">
+                <label class="search-wrap">
+                    <span class="sr-only">Search products</span>
+                    <input type="search" id="search-input" placeholder="Search products..." autocomplete="off">
+                </label>
+                <label class="sort-wrap">Sort by
+                    <select id="sort-select">
+                        <option value="featured">Featured</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="rating">Highest Rating</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="category-filters" id="category-filters" aria-label="Product categories">
+                <button class="category-button active" type="button" data-category="All" aria-pressed="true">All</button>
+                <button class="category-button" type="button" data-category="Electronics" aria-pressed="false">Electronics</button>
+                <button class="category-button" type="button" data-category="Clothing" aria-pressed="false">Clothing</button>
+                <button class="category-button" type="button" data-category="Footwear" aria-pressed="false">Footwear</button>
+                <button class="category-button" type="button" data-category="Books" aria-pressed="false">Books</button>
+            </div>
+
+            <p class="result-count" id="results-count" aria-live="polite">Loading products...</p>
+            <div class="products" id="product-grid" aria-live="polite">
+                <p class="loading-message">Getting the products ready...</p>
+            </div>
+            <div class="no-results" id="no-results" hidden>
+                <div></div>
+                <h3>No products found</h3>
+                <p>Try another search or choose a different category.</p>
+                <button class="secondary-button" id="clear-filters" type="button">Clear search and filters</button>
+            </div>
+            <p class="load-error" id="load-error" role="alert" hidden>We couldn't load the products. Please run the project using Live Server and refresh the page.</p>
+        </section>
+
+        <section class="cart-section" id="cart">
+            <div class="section-heading">
+                <p class="small-heading">YOUR PICKS</p>
+                <h2>Your Shopping Cart</h2>
+                <p>Products you add will appear here.</p>
+            </div>
+            <div class="cart-layout">
+                <div class="cart-items" id="cart-items" aria-live="polite">
+                    <p class="empty-cart">Your cart is empty. Add something you like!</p>
+                </div>
+                <aside class="cart-summary">
+                    <h3>Order Summary</h3>
+                    <div class="summary-line"><span>Total items</span><strong id="summary-items">0</strong></div>
+                    <div class="summary-line total-line"><span>Subtotal</span><strong id="cart-subtotal">₹0.00</strong></div>
+                    <button class="primary-button checkout-button" id="checkout-button" type="button" disabled>Continue</button>
+                    <button class="clear-cart-button" id="clear-cart" type="button">Clear Cart</button>
+                    <p class="cart-help">Demo checkout only. No payment will be collected.</p>
+                </aside>
+            </div>
+            <p class="cart-notice" id="cart-notice" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="about-mark"></div>
+            <div>
+                <p class="small-heading">A LITTLE ABOUT US</p>
+                <h2>Welcome to ShopNest</h2>
+                <p>ShopNest is a cheerful place to discover useful finds and thoughtful gifts. We believe the right little thing can make an ordinary day feel special.</p>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <p class="small-heading">SAY HELLO</p>
+            <h2>Contact Us</h2>
+            <p>Have a question? We would be happy to hear from you.</p>
+            <p>Chennai, Tamil Nadu &nbsp; | &nbsp;  <a href="mailto:shopnest@gmail.com">shopnest@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <a class="brand footer-brand" href="#home">ShopNest<span></span></a>
+        <p>Made with care for your special moments.</p>
+        <p>© <span id="current-year">2026</span> ShopNest. All rights reserved.</p>
+    </footer>
+</body>
+</html>
